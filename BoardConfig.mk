@@ -36,6 +36,10 @@ TARGET_UNIFIED_DEVICE := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Liquid stuff
+LIQUID_CHANGELOG := true
+LIQUIFY := true
+
 # Partitions (set for 16 GB)
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_LARGE_FILESYSTEM := true
